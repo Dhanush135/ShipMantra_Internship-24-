@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import s from './LoginPage.module.css';
-import logo_web from '/Users/selvarajandhanush/DOCS/ShipMantra/project/client/src/Images/Login/logo_web 5.svg';
-import Group from '/Users/selvarajandhanush/DOCS/ShipMantra/project/client/src/Images/Login/Group 1000002776.svg';
+import logo_web from '../Images/Login/logo_web 5.svg';
+import Group from '../Images/Login/Group 1000002776.svg';
 
 const LoginPage = () => {
   return (

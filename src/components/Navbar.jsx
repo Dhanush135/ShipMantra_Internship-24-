@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo_web from '/Users/selvarajandhanush/DOCS/ShipMantra/project/client/src/Images/Login/logo_web 5.svg';
+import logo_web from '../Images/Login/logo_web 5.svg';
 
 const Navbar = () => {
   const navigate = useNavigate();

@@ -1,0 +1,44 @@
+.main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.box{
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.top{
+    display: flex;
+}
+
+.mobile{
+    font-size: medium;
+    color: grey
+}
+
+.topin{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.botmin{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.text{
+    font-size: medium;
+    margin-left: 15px;
+}
+
+.img{
+    height: 45px;
+    width: 45px;
+}

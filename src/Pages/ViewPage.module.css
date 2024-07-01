@@ -1,0 +1,138 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top{
+    padding: 7px;
+    margin-top: 15px;
+    width: 80%;
+    border: 0.5px solid black;
+    border-radius: 7px;
+}
+
+.top_top{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hr{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.top_mid{
+    font-size: medium;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.btn{
+    color: white;
+    background-color: blueviolet;
+    padding: 7px;
+    border: none;
+    border-radius: 4px
+}
+
+.bottm{
+    width: 40%;
+}
+
+.image{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.bottm_btn{
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.btn1{
+    background-color: rgb(11, 176, 27);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 55%;
+    margin-right: 7px;
+}
+
+.btn2{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 7px;
+    width: 25%;
+}
+
+.topbar{
+    display: none;
+}
+
+@media only screen and (max-width: 430px) {
+
+    .topbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .toporder{
+        font-size: large;
+    }
+
+    .arrow{
+        margin-left: 5px;
+    }
+
+    .top{
+        width: 95%;
+    }
+
+    .topid{
+        font-size: medium;
+    }
+
+    b{
+        font-size: small;
+    }
+
+    .hr{
+        margin-top: 10px;
+        width: 100%;
+        height: 1px;
+        border-top: 1px solid rgb(189, 187, 187);
+    }
+
+    .top_mid{
+        font-size: medium;
+    }
+
+    /* .image{
+        margin-top: 15px;
+        width: 100%;
+        height: 100%;
+    } */
+
+    .bottm{
+        width: 80%;
+    }
+
+}
